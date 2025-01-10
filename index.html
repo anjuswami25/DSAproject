@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activity Selection Problem</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Activity Selection Problem</h1>
+    
+    <div class="input-section">
+      <div class="input-group">
+        <input type="text" id="activityName" placeholder="Activity Name" class="input-field">
+        <input type="number" id="startTime" placeholder="Start Time" class="input-field">
+        <input type="number" id="endTime" placeholder="End Time" class="input-field">
+        <button id="addActivity" class="btn">Add Activity</button>
+      </div>
+      <button id="solve" class="btn solve-btn">Find Maximum Activities</button>
+    </div>
+
+    <div class="timeline-container">
+      <div class="timeline-header">
+        <div>Timeline (Hours)</div>
+        <div class="timeline-scale"></div>
+      </div>
+      <div id="timeline" class="timeline"></div>
+    </div>
+
+    <div class="activities-container">
+      <div class="activities-list">
+        <h2>All Activities</h2>
+        <div id="activitiesList"></div>
+      </div>
+      
+      <div class="selected-activities">
+        <h2>Selected Activities</h2>
+        <div id="selectedActivities"></div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>         
