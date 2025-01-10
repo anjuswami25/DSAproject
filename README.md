@@ -13,6 +13,7 @@ This project demonstrates the **Activity Selection Problem** using **HTML**, **C
 - **HTML**: Structure of the web page.
 - **CSS**: Styling and layout.
 - **JavaScript**: Implementation of the Activity Selection algorithm and interactivity.
+- **Python**: Backend implementation of the Activity Selection algorithm and data processing
 
 ## How It Works
 1. **Input Activities**: The user provides a list of activities with their start and end times.
